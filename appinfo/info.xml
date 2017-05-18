@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>onedrive</id>
+    <name>One Drive</name>
+    <summary>App to use onedrive as external storage</summary>
+    <description><![CDATA[App to use onedrive as external storage]]></description>
+    <licence>agpl</licence>
+    <author mail="rik@pulledbits.org" homepage="https://pulledbits.org">Rik Meijer</author>
+    <version>0.0.1</version>
+    <namespace>OneDrive</namespace>
+    <category>files</category>
+    <category>integration</category>
+    <bugs>https://github.com/rikmeijer/nextcloud-onedrive/issues</bugs>
+    <dependencies>
+        <owncloud min-version="9.2"/>
+        <nextcloud min-version="11" max-version="11"/>
+    </dependencies>
+</info>
